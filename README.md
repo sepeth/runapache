@@ -30,9 +30,9 @@ That's it! Apache will publish current working directory at 127.0.0.1:8080.
 
 There are some useful command line parameters:
 
-    -d DIR	        specify the directory to be published (aka DocumentRoot), default is current working directory
+    -d DIR          specify the directory to be published (aka DocumentRoot), default is current working directory
     -l [ADDR]:PORT  listen addr and port, default is 127.0.0.1:8080
-    -b DIRECTIVE	add apache directive before the default configuration
+    -b DIRECTIVE    add apache directive before the default configuration
     -B FILE         add apache conf file before the default configuration
     -a DIRECTIVE    add apache directive after the default configuration
     -A FILE         add apache conf file after the default configuration
